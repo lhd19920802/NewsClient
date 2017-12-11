@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <com.lhd.news.view.HorizontalScrollViewPager
+        android:id="@+id/vp_tab_detail"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/vp_tab_detail"
+        android:background="#99000000"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tv_tab_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我不是杰伦"
+            android:textColor="@android:color/white"/>
+
+        <LinearLayout
+            android:id="@+id/ll_tab_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

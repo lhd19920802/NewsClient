@@ -1,0 +1,2 @@
+include ':app', ':slidingmenu_library', ':xutils_library'
+include ':ViewPagerIndicator_library'
